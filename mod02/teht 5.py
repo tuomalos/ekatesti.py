@@ -1,0 +1,13 @@
+print("Kerro jokin massa keskiaikaisten mittojen mukaan leivisköinä, nauloina ja luoteina, ohjelma muuntaa syötteen täysiksi kilogrammoiksi ja grammoiksi")
+leiviska = input("Anna leiviskät")
+naula = input("Anna naulat")
+luoti = input("Anna luodit")
+naulaf = float(naula)
+leiviskaf = float(leiviska)
+luotif = float(luoti)
+gramma = (leiviskaf * 20 * 32 + naulaf * 32 + luotif) * 13.3
+kg = int(gramma // 1000)
+g = round(gramma % 1000)
+print("Kilogrammat ja grammat")
+print(kg)
+print(g)
