@@ -27,6 +27,5 @@ for i in range(1,11):
     autot.append(Auto(rekisteri, arvottu_huippunopeus ))
 
 for auto in autot:
-    print(auto.rekisteri)
-    print(auto.huippunopeus)
+    print(auto.rekisteri, auto.huippunopeus)
 
